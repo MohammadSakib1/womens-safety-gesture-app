@@ -1,0 +1,1 @@
+"""Image-only women safety gesture ML pipeline."""

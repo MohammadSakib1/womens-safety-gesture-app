@@ -1,0 +1,22 @@
+# tensorflow==2.17.0
+# mediapipe==0.10.14
+# opencv-python==4.10.0.84
+# numpy==1.26.4
+# scikit-learn==1.5.1
+# PyYAML==6.0.2
+# pandas==2.2.2
+# seaborn==0.13.2
+# matplotlib==3.9.2
+# tqdm==4.66.5
+
+
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+matplotlib==3.8.4
+opencv-python==4.9.0.80
+mediapipe==0.10.14
+tensorflow==2.15.1
+PyYAML==6.0.1
+seaborn==0.13.2
+tqdm==4.66.5

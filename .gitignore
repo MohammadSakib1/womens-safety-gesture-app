@@ -1,0 +1,15 @@
+# Virtual environments
+venv/
+**/venv/
+
+# Raw dataset (too large for GitHub)
+ml-pipeline/hand_gesture_for-womens/ml_pipeline/data/raw/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# OS/editor junk
+.DS_Store
+.vscode/

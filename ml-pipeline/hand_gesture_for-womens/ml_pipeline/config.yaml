@@ -1,0 +1,56 @@
+# data:
+#   raw_dir: data/raw/hagrid
+#   processed_dir: data/processed
+#   reports_dir: data/reports
+#   classes: [help, stop, call, ok, mute]
+#   image_size: [224, 224]
+#   train_ratio: 0.7
+#   val_ratio: 0.15
+#   test_ratio: 0.15
+#   min_detection_confidence: 0.5
+#   min_tracking_confidence: 0.5
+
+# training:
+#   batch_size: 32
+#   epochs: 80
+#   learning_rate: 0.0003
+#   weight_decay: 0.0001
+#   label_smoothing: 0.08
+#   dropout: 0.30
+#   l2: 0.0001
+#   use_focal_loss: false
+#   class_weight: true
+#   random_seed: 42
+
+# export:
+#   saved_model_dir: outputs/exported/saved_model
+#   tflite_path: outputs/exported/model.tflite
+#   int8_tflite_path: outputs/exported/model_int8.tflite
+
+data:
+  raw_dir: data/raw/hagrid
+  processed_dir: data/processed
+  reports_dir: data/reports
+  classes: [help, stop, call, ok, mute]
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  min_detection_confidence: 0.6
+  min_tracking_confidence: 0.6
+
+training:
+  batch_size: 32
+  epochs: 120
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  dropout: 0.35
+  l2: 0.0001
+  label_smoothing: 0.08
+  use_focal_loss: true
+  class_weight: true
+  random_seed: 42
+
+export:
+  saved_model_dir: outputs/exported/saved_model
+  tflite_path: outputs/exported/model.tflite
+  int8_tflite_path: outputs/exported/model_int8.tflite

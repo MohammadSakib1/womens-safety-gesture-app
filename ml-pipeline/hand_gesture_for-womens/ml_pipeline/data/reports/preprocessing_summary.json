@@ -1,0 +1,8 @@
+{
+  "num_train": 5613,
+  "num_val": 1203,
+  "num_test": 1204,
+  "num_classes": 5,
+  "feature_dim": 90,
+  "raw_landmark_dim": 63
+}
